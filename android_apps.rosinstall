@@ -4,8 +4,8 @@
 # Take out for now - awful dependencies on create and follower messages
 # {'git': {'local-name': 'turtlebot_android', 'version': 'hydro', 'uri':'https://github.com/turtlebot/turtlebot_android'}},
 [
-{'git': {'local-name': 'android_core', 'version': 'hydro', 'uri':'https://github.com/rosjava/android_core'}},
-{'git': {'local-name': 'android_extras', 'version': 'hydro', 'uri':'https://github.com/rosjava/android_extras'}},
-{'git': {'local-name': 'android_apps', 'version': 'hydro', 'uri':'https://github.com/rosjava/android_apps'}},
-{'git': {'local-name': 'android_remocons', 'version': 'hydro', 'uri':'https://github.com/rosjava/android_remocons'}},
+{'git': {'local-name': 'android_core', 'version': 'master', 'uri':'https://github.com/rosjava/android_core'}},
+{'git': {'local-name': 'android_extras', 'version': 'master', 'uri':'https://github.com/rosjava/android_extras'}},
+{'git': {'local-name': 'android_apps', 'version': 'master', 'uri':'https://github.com/rosjava/android_apps'}},
+{'git': {'local-name': 'android_remocons', 'version': 'master', 'uri':'https://github.com/rosjava/android_remocons'}},
 ]
