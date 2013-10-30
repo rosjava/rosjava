@@ -1,13 +1,14 @@
 # The core rosjava packages
 
-# Make sure you have both catkin and whatever msg stacks (e.g. common_msgs for xxx_core tutorials and rocon_msgs for android
-# pairing apps) discoverable in an installed or source workspace before rosinstalling these.
-#
-# rocon_msgs is currently included since it is still changing reasonably often in source and less so in deb.
+# Make sure you have dependencies installed (just do a rosdep install for your source directories, that should
+# cover it). Essentially this is openjdk, catkin and whatever msg packages are required.
+
+# Note that we use hydro branch of rosjava_messages - it is the current set of usable messages which is
+# based on daily scraping of the hydro branch.
 [
 {'git': {'local-name': 'rosjava_build_tools', 'version': 'master', 'uri':'https://github.com/rosjava/rosjava_build_tools.git'}},
 {'git': {'local-name': 'rosjava_bootstrap', 'version': 'master', 'uri':'https://github.com/rosjava/rosjava_bootstrap.git'}},
-{'git': {'local-name': 'rosjava_messages', 'version': 'master', 'uri':'https://github.com/rosjava/rosjava_messages.git'}},
+{'git': {'local-name': 'rosjava_messages', 'version': 'hydro', 'uri':'https://github.com/rosjava/rosjava_messages.git'}},
 {'git': {'local-name': 'rosjava_core', 'version': 'master', 'uri':'https://github.com/rosjava/rosjava_core.git'}},
 {'git': {'local-name': 'rosjava_extras', 'version': 'master', 'uri':'https://github.com/rosjava/rosjava_extras.git'}},
 {'git': {'local-name': 'zeroconf_jmdns_suite', 'version': 'master', 'uri':'https://github.com/rosjava/zeroconf_jmdns_suite.git'}},
