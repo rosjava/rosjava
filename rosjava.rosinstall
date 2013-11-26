@@ -3,7 +3,6 @@
 # Make sure you have both catkin and whatever msg stacks (e.g. common_msgs for xxx_core tutorials and rocon_msgs for android
 # pairing apps) discoverable in an installed or source workspace before rosinstalling these.
 #
-# rocon_msgs is currently included since it is still changing reasonably often in source and less so in deb.
 [
 {'git': {'local-name': 'rosjava_build_tools', 'version': 'hydro', 'uri':'https://github.com/rosjava/rosjava_build_tools.git'}},
 {'git': {'local-name': 'rosjava_bootstrap', 'version': 'hydro', 'uri':'https://github.com/rosjava/rosjava_bootstrap.git'}},
