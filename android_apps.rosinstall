@@ -1,5 +1,5 @@
 #
-# Prerequistes: https://raw.github.com/rosjava/rosjava_build_tools/hydro-devel/rosjava.rosinstall
+# Underlays: https://raw.github.com/rosjava/rosjava/hydro/rosjava.rosinstall
 #
 # Take out for now - awful dependencies on create and follower messages
 # {'git': {'local-name': 'turtlebot_android', 'version': 'hydro', 'uri':'https://github.com/turtlebot/turtlebot_android'}},
