@@ -1,5 +1,7 @@
 #
-# Underlays: https://raw.github.com/rosjava/rosjava/hydro/rosjava.rosinstall
+# Underlays: 
+# - https://raw.github.com/rosjava/rosjava/hydro/rosjava.rosinstall (optional)
+# - https://github.com/robotics-in-concert/rocon_msgs.git (hydro-devel branch)
 #
 [
 {'git': {'local-name': 'android_core', 'version': 'hydro', 'uri':'https://github.com/rosjava/android_core'}},
