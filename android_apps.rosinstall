@@ -1,12 +1,12 @@
 #
 # Underlays: 
 # - https://raw.github.com/rosjava/rosjava/hydro/rosjava.rosinstall (optional)
-# - https://github.com/robotics-in-concert/rocon_msgs.git (hydro-devel branch)
 #
 [
 {'git': {'local-name': 'android_core', 'version': 'hydro', 'uri':'https://github.com/rosjava/android_core'}},
 {'git': {'local-name': 'android_extras', 'version': 'hydro', 'uri':'https://github.com/rosjava/android_extras'}},
 {'git': {'local-name': 'android_apps', 'version': 'master', 'uri':'https://github.com/rosjava/android_apps'}},
 {'git': {'local-name': 'android_remocons', 'version': 'master', 'uri':'https://github.com/rosjava/android_remocons'}},
+{'git': {'local-name': 'rocon_msgs', 'version': 'hydro-devel', 'uri':'https://github.com/robotics-in-concert/rocon_msgs'}},
 {'git': {'local-name': 'rocon_rosjava_msgs', 'version': 'hydro-devel', 'uri':'https://github.com/robotics-in-concert/rocon_rosjava_msgs'}},
 ]
