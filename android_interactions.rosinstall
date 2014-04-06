@@ -1,0 +1,11 @@
+#
+# Source Underlays (if optional items not used, it will get artifacts from the maven repo):
+# 
+# - https://raw.github.com/rosjava/rosjava/hydro/rosjava.rosinstall (optional)
+# - https://raw.githubusercontent.com/rosjava/rosjava/hydro/android_core.rosinstall (optional)
+# - https://raw.github.com/robotics-in-concert/rocon/hydro-devel/rocon_rosjava.rosinstall
+
+[
+{'git': {'local-name': 'android_apps', 'version': 'master', 'uri':'https://github.com/rosjava/android_apps'}},
+{'git': {'local-name': 'android_remocons', 'version': 'master', 'uri':'https://github.com/rosjava/android_remocons'}},
+]
