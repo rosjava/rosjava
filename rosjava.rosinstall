@@ -1,6 +1,6 @@
-# The core rosjava packages
 
 [
+# The core rosjava packages
 {'git': {'local-name': 'rosjava_build_tools', 'version': 'indigo', 'uri':'https://github.com/rosjava/rosjava_build_tools.git'}},
 {'git': {'local-name': 'rosjava_bootstrap', 'version': 'indigo', 'uri':'https://github.com/rosjava/rosjava_bootstrap.git'}},
 {'git': {'local-name': 'genmsg', 'version': 'indigo-devel', 'uri':'https://github.com/ros/genmsg.git'}},
@@ -13,6 +13,7 @@
 {'git': {'local-name': 'rosjava_core', 'version': 'indigo', 'uri':'https://github.com/rosjava/rosjava_core.git'}},
 {'git': {'local-name': 'rosjava_extras', 'version': 'indigo', 'uri':'https://github.com/rosjava/rosjava_extras.git'}},
 {'git': {'local-name': 'zeroconf_jmdns_suite', 'version': 'indigo', 'uri':'https://github.com/rosjava/zeroconf_jmdns_suite.git'}},
+{'git': {'local-name': 'rosjava', 'version': 'indigo', 'uri':'https://github.com/rosjava/rosjava.git'}},
 
 # Message dependencies (geometry_experimental is for tf2)
 {'git': {'local-name': 'ros_comm_msgs', 'version': 'indigo-devel', 'uri':'https://github.com/ros/ros_comm_msgs.git'}},
@@ -23,9 +24,5 @@
 {'git': {'local-name': 'ros_comm', 'version': 'indigo-devel', 'uri':'https://github.com/ros/ros_comm.git'}},  # rosgraph_msgs
 
 #{'git': {'local-name': 'rosjava_messages', 'version': 'hydro', 'uri':'https://github.com/rosjava/rosjava_messages.git'}},
-#{'git': {'local-name': 'rosjava_core', 'version': 'hydro', 'uri':'https://github.com/rosjava/rosjava_core.git'}},
-#{'git': {'local-name': 'rosjava_extras', 'version': 'hydro', 'uri':'https://github.com/rosjava/rosjava_extras.git'}},
-#{'git': {'local-name': 'zeroconf_jmdns_suite', 'version': 'hydro', 'uri':'https://github.com/rosjava/zeroconf_jmdns_suite.git'}},
-#{'git': {'local-name': 'rosjava', 'version': 'hydro', 'uri':'https://github.com/rosjava/rosjava.git'}},
 ]
 
