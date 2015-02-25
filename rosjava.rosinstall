@@ -18,7 +18,4 @@
 # Temporary requirements
 #   Till 1.11 is released - http://www.ros.org/debbuild/indigo.html?q=ros_comm_msgs
 {'git': {'local-name': 'ros_comm_msgs', 'version': 'indigo-devel', 'uri':'https://github.com/ros/ros_comm_msgs.git'}},
-#   Till map_store update is released...or replaced with world_canvas_msgs
-{'git': {'local-name': 'map_store', 'version': 'hydro-devel', 'uri':'https://github.com/stonier/map_store.git'}},
-
 ]
