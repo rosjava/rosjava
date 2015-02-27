@@ -18,6 +18,8 @@
   <buildtool_depend>catkin</buildtool_depend>
   <run_depend>rosjava_build_tools</run_depend>
   <run_depend>rosjava_bootstrap</run_depend>
+  <run_depend>genjava</run_depend>
+  <run_depend>rosjava_test_msgs</run_depend>
   <run_depend>rosjava_messages</run_depend>
   <run_depend>rosjava_core</run_depend>
   <run_depend>rosjava_extras</run_depend>
