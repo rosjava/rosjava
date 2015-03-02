@@ -2,6 +2,10 @@
 Changelog for package rosjava
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.2.1 (2015-03-02)
+------------------
+* added rocon_rosjava_core to the dependencies.
+
 0.2.0 (2015-02-11)
 ------------------
 * updated dependencies for indigo
