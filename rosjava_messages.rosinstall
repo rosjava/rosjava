@@ -1,10 +1,10 @@
 # Messages and temporarily forked sources for rosjava messages
 
 [
-{'git': {'local-name': 'rosjava_build_tools', 'version': 'indigo', 'uri':'https://github.com/rosjava/rosjava_build_tools.git'}},
-{'git': {'local-name': 'rosjava_bootstrap', 'version': 'indigo', 'uri':'https://github.com/rosjava/rosjava_bootstrap.git'}},
-{'git': {'local-name': 'genjava', 'version': 'indigo', 'uri':'https://github.com/rosjava/genjava.git'}},
-{'git': {'local-name': 'rosjava_messages', 'version': 'indigo', 'uri':'https://github.com/rosjava/rosjava_messages.git'}},
+{'git': {'local-name': 'rosjava_build_tools', 'version': 'kinetic', 'uri':'https://github.com/rosjava/rosjava_build_tools.git'}},
+{'git': {'local-name': 'rosjava_bootstrap', 'version': 'kinetic', 'uri':'https://github.com/rosjava/rosjava_bootstrap.git'}},
+{'git': {'local-name': 'genjava', 'version': 'kinetic', 'uri':'https://github.com/rosjava/genjava.git'}},
+{'git': {'local-name': 'rosjava_messages', 'version': 'kinetic', 'uri':'https://github.com/rosjava/rosjava_messages.git'}},
 
 #   Till map_store update is released...or replaced with world_canvas_msgs
 {'git': {'local-name': 'map_store', 'version': 'hydro-devel', 'uri':'https://github.com/stonier/map_store.git'}},
