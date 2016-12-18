@@ -4,15 +4,15 @@
 # Note: usually don't have yocs_msgs sources in an underlay, so add it here.
 [
 # A minimal source environment for rosjava that utilises rosjava_messages for message generation
-{'git': {'local-name': 'rosjava_build_tools', 'version': 'indigo', 'uri':'https://github.com/rosjava/rosjava_build_tools.git'}},
-{'git': {'local-name': 'genjava', 'version': 'indigo', 'uri':'https://github.com/rosjava/genjava.git'}},
-{'git': {'local-name': 'rosjava_bootstrap', 'version': 'indigo', 'uri':'https://github.com/rosjava/rosjava_bootstrap'}},
-{'git': {'local-name': 'rosjava_test_msgs', 'version': 'indigo', 'uri':'https://github.com/rosjava/rosjava_test_msgs.git'}},
-{'git': {'local-name': 'rosjava_messages', 'version': 'indigo', 'uri':'https://github.com/rosjava/rosjava_messages'}},
-{'git': {'local-name': 'rosjava_core', 'version': 'indigo', 'uri':'https://github.com/rosjava/rosjava_core'}},
-{'git': {'local-name': 'rosjava_extras', 'version': 'indigo', 'uri':'https://github.com/rosjava/rosjava_extras'}},
-{'git': {'local-name': 'zeroconf_jmdns_suite', 'version': 'indigo', 'uri':'https://github.com/rosjava/zeroconf_jmdns_suite'}},
-{'git': {'local-name': 'rosjava', 'version': 'indigo', 'uri':'https://github.com/rosjava/rosjava.git'}},
+{'git': {'local-name': 'rosjava_build_tools', 'version': 'kinetic', 'uri':'https://github.com/rosjava/rosjava_build_tools.git'}},
+{'git': {'local-name': 'genjava', 'version': 'kinetic', 'uri':'https://github.com/rosjava/genjava.git'}},
+{'git': {'local-name': 'rosjava_bootstrap', 'version': 'kinetic', 'uri':'https://github.com/rosjava/rosjava_bootstrap'}},
+{'git': {'local-name': 'rosjava_test_msgs', 'version': 'kinetic', 'uri':'https://github.com/rosjava/rosjava_test_msgs.git'}},
+{'git': {'local-name': 'rosjava_messages', 'version': 'kinetic', 'uri':'https://github.com/rosjava/rosjava_messages'}},
+{'git': {'local-name': 'rosjava_core', 'version': 'kinetic', 'uri':'https://github.com/rosjava/rosjava_core'}},
+{'git': {'local-name': 'rosjava_extras', 'version': 'kinetic', 'uri':'https://github.com/rosjava/rosjava_extras'}},
+{'git': {'local-name': 'zeroconf_jmdns_suite', 'version': 'kinetic', 'uri':'https://github.com/rosjava/zeroconf_jmdns_suite'}},
+{'git': {'local-name': 'rosjava', 'version': 'kinetic', 'uri':'https://github.com/rosjava/rosjava.git'}},
 # Rocon rosjava
 {'git': {'local-name': 'rocon_rosjava_core', 'version': 'indigo', 'uri':'https://github.com/robotics-in-concert/rocon_rosjava_core'}},
 # Temporary requirements
