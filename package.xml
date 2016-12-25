@@ -24,7 +24,6 @@
   <run_depend>rosjava_core</run_depend>
   <run_depend>rosjava_extras</run_depend>
   <run_depend>zeroconf_jmdns_suite</run_depend>
-  <run_depend>rocon_rosjava_core</run_depend>
 
   <export>
     <metapackage/>
