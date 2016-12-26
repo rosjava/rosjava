@@ -13,9 +13,4 @@
 {'git': {'local-name': 'rosjava_extras', 'version': 'kinetic', 'uri':'https://github.com/rosjava/rosjava_extras'}},
 {'git': {'local-name': 'zeroconf_jmdns_suite', 'version': 'kinetic', 'uri':'https://github.com/rosjava/zeroconf_jmdns_suite'}},
 {'git': {'local-name': 'rosjava', 'version': 'kinetic', 'uri':'https://github.com/rosjava/rosjava.git'}},
-# Rocon rosjava
-{'git': {'local-name': 'rocon_rosjava_core', 'version': 'indigo', 'uri':'https://github.com/robotics-in-concert/rocon_rosjava_core'}},
-# Temporary requirements
-#   Till 1.11 is released - http://www.ros.org/debbuild/indigo.html?q=ros_comm_msgs
-{'git': {'local-name': 'ros_comm_msgs', 'version': 'indigo-devel', 'uri':'https://github.com/ros/ros_comm_msgs.git'}},
 ]
